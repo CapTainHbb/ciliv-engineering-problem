@@ -10,11 +10,4 @@ private:
 	Joint firstJoint;
 };
 
-MyClass::MyClass()
-{
 
-}
-
-MyClass::~MyClass()
-{
-}

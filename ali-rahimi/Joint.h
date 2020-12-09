@@ -32,12 +32,3 @@ private:
 	Pipe* left_pipe_ptr{ nullptr }, * right_pipe_ptr{ nullptr };
 };
 
-Joint::Joint(Pipe* left_pipe_ptr, Pipe* right_pipe_ptr)
-{
-	set_left_pipe(left_pipe_ptr);
-	set_right_pipe(right_pipe_ptr);
-}
-
-Joint::~Joint()
-{
-}

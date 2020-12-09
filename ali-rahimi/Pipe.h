@@ -36,6 +36,10 @@ public:
 	const Joint* get_left_joint_ptr() const;
 	const Joint* get_right_joint_ptr() const;
 
+	// utility functions
+	void calculate_k();
+	void calculate_left_fem();
+	void calculate_right_fem();
 
 
 	~Pipe();
@@ -52,12 +56,4 @@ private:
 
 };
 
-Pipe::Pipe(Joint* left_joint_ptr, Joint* right_joint_ptr)
-{
-	set_left_joint_ptr(left_joint_ptr);
-	set_right_joint_ptr(right_joint_ptr);
-}
 
-Pipe::~Pipe()
-{
-}
