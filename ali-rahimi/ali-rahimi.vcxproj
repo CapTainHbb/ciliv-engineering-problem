@@ -139,12 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ali-rahimi.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Joint.h" />
     <ClInclude Include="Pipe.h" />
     <ClInclude Include="Problem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Joint.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pipe.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
